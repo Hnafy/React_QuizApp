@@ -1,0 +1,13 @@
+.QuizFrame{
+    width: 450px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 25px;
+}
+.QuizFrame h2{
+    color: #000;
+    font-size: 35px;
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+}
+

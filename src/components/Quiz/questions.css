@@ -1,0 +1,57 @@
+.questions p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.questions .answers{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+}
+.questions .answers button{
+    background-color: transparent;
+    border: 2px solid rgb(0 0 0 / 50%);
+    border-radius: 4px;
+    text-align: left;
+    padding: 10px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: .4s;
+}
+.questions .answers button:hover{
+    border: 2px solid rgb(0 0 0 / 100%);
+    background-color: rgb(0 0 0 / 50%);
+    color: #fff;
+}
+.answers .success{
+    background-color: #88f926ea !important;
+}
+.answers .fail{
+    background-color: #f93426ea !important;
+}
+.QuizFrame .nextQuestion{
+    padding: 5px 15px;
+    font-size: 21px;
+    border: none;
+    outline: none;
+    background-color: #3791f1;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s;
+}
+.QuizFrame button:hover{
+    background-color: #3791f1da;
+}
+.QuizFrame .nextQuestion:disabled{
+    background-color: #777;
+    cursor: auto;
+}
+.QuizFrame .nextQuestion:disabled{
+    background-color: #777;
+}
+.final{
+    line-height: 2rem;
+    font-size: 25px;
+    margin: 10px 0;
+}
